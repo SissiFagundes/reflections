@@ -3,3 +3,18 @@ Git creates a metadata file with data about the repository. To start tracking fi
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It offers more control.
+
+How can you use the staging area to make sure you have one commit per logical change?
+We can put each desired set of files at a time at the staging area and then commit them. One commit per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Changes that are not official or permanent yet can be put in strategy places, where you can make changes without overloading your official branch.
+
+How do the diagrams help you visualize the branch structure?
+It makes possible to visualize parents. 
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The two merged branches have the same parent. That is why we represent it the way we do.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Automatic mergings save a lot of work, but could generate wrong code if it didn't ask you about conflicts. Manually merging would be tedious and boring, if made all the time.
